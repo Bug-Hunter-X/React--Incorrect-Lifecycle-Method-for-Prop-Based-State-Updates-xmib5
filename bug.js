@@ -1,0 +1,1 @@
+This React component uses the wrong lifecycle method for updating the state based on props. `componentWillReceiveProps` is deprecated and should be replaced with `getDerivedStateFromProps` or `componentDidUpdate`.  This can cause unexpected behavior and inconsistencies in state updates.
